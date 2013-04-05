@@ -10,6 +10,23 @@ GeoIPd is a javascript service to provide GeoIP Data, from various sources like 
 Input via chain of Geo Source plugins
 Output via format plugin, initially JSON
 
+## Basic Web Client Example
+
+```
+<script src="geoipd.js"></script>
+<script>
+var geoipd = new geoipd();
+var geodata = geoipd->getMaxMindLiteCountry();
+console.log(JSON.stringify(geodata));
+</script>
+```
+
+## Basic Node Example
+
+```
+var geoipd = require('geoipd');
+...
+```
 
 ## License
 
