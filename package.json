@@ -1,0 +1,15 @@
+{
+    "name": "geoipd",
+    "version": "0.1.0",
+    "description": "A javascript library to provide GeoIP Data, from various sources like MaxMind GeoLite, in a standard form",
+    "keywords": ["geo", "geoip", "ip", "ipv4", "ipv6", "geolookup", "maxmind", "geolite", "geo-lite"],
+    "homepage": "https://github.com/av4me/geoipd",
+    "author": "av4me",
+    "files": ["lib/"],
+    "main": "lib/geoipd.js",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/av4me/geoipd.git"
+    },
+    "license": "MIT"
+}
