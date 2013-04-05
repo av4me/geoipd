@@ -1,6 +1,6 @@
 # geoipd
 
-GeoIPd is a service to provide GeoIP Data, from various sources like http://dev.maxmind.com/geoip/geolite, in a standardized form including:
+GeoIPd is a javascript service to provide GeoIP Data, from various sources like http://dev.maxmind.com/geoip/geolite, in a standardized form including:
 - JSON as a primary export format, JSONP and other formats to come with time via export plugins
 - support the ability to switch GeoIP data services without changing application logic
 - support the ability to fail over between GeoIP data services should one or more fail
